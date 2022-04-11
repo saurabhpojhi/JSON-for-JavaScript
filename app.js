@@ -1,5 +1,13 @@
 /* JSON stands for Javascript Object Notation. JSON is a text-based data format that is used to store and transfer data.*/
 
+      // json type  types:
+ Number
+String
+Boolean
+Array
+Object
+null
+
 // JSON syntax
 
 // {
@@ -92,6 +100,7 @@ console.log(obj1);    //  {"name":"saurabh","age":26}
  
 
 /* note vvi*/
+
 
 
 
