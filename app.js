@@ -16,9 +16,17 @@
 
   // {"name": "saurabh", "age": 26, "gender": "male"}
 
-/*JSON array      JSON array is written inside square brackets [ ]*/
+/*JSON array      JSON array is written inside square brackets [ ]*/  
+
+// Just like in JavaScript, an array can contain objects:
 
 // ["name": "saurabh", "age": 26, "gender": "male"]
+
+// "employees":[
+//     {"firstName":"saurabh", "lastName":"kumar"},
+//     {"firstName":"shubham", "lastName":"gupta"},
+//     {"firstName":"ravi", "lastName":"das"}
+//   ]
 
 // JSON array containing objects
 
@@ -82,4 +90,8 @@ const obj1 = JSON.stringify(jsonData1);
 // accessing the data
 console.log(obj1);    //  {"name":"saurabh","age":26}
  
+
+/* note vvi*/
+
+
 
