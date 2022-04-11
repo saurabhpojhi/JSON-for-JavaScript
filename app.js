@@ -101,6 +101,12 @@ console.log(obj1);    //  {"name":"saurabh","age":26}
 
 /* note vvi*/
 
+// How to Use JSON Data as a String Value  //
+//You can enclose the entire JSON data as a string within a single quote '...'.
+
+const user = '{"name": "saurabh","age":26,"city":"Delhi"}';
+console.log(user);
+
 
 
 
