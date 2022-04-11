@@ -48,3 +48,13 @@ console.log(data.class); // [ 'javaScript', 'node', 'Mongo' ]
 console.log(data.hobby.reading); // true
 console.log(data.hobby.sports); // football
 console.log(data.class[1]);   // node
+
+/*You can also use square bracket syntax [] to access JSON data.*/
+
+// json object
+const data1 = {
+    "name": "saurabh",
+    "age":26
+}
+// accessing JSON object
+console.log(data["name"]); //saurabh
