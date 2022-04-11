@@ -58,3 +58,16 @@ const data1 = {
 }
 // accessing JSON object
 console.log(data["name"]); //saurabh
+
+/*  Converting JSON to JavaScript Object */  // You can convert JSON data to a JavaScript object using the built-in JSON.parse() function.
+
+// json object
+const jsonData = '{"name": "saurabh", "age": 26}';
+
+// converting to JavaScript object
+const obj = JSON.parse(jsonData);
+
+// accessing the data
+console.log(obj.name);  // saurabh
+
+
